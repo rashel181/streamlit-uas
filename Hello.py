@@ -224,7 +224,7 @@ def prosesData():
     rankings = final_rank(separation_distance, alternatif)
     st.write("## FINAL RANKINGS:")
     for rank, (alternatif_name, value) in enumerate(rankings, start=1):
-        st.write(f"{rank}. Alternatif: {alternatif_name}, Ranking Value: {value:.4f}")
+        st.write(f"{rank}. Alternatif: {alternatif_name}, Ranking Value: {value}")
     
 if __name__ == "__main__":
     run()
